@@ -1,9 +1,9 @@
 <template>
 	<div class='slider'>
-    <swipe class="my-swipe">
-		  <swipe-item class="slide"></swipe-item>
-		  <swipe-item class="slide"></swipe-item>
-		  <swipe-item class="slide"></swipe-item>
+		<swipe class="my-swipe">
+			<swipe-item class="slide"></swipe-item>
+			<swipe-item class="slide"></swipe-item>
+			<swipe-item class="slide"></swipe-item>
 		</swipe>
 	</div>
 </template>
@@ -18,7 +18,7 @@
 	}
 </script>
 <style scoped>
-	.my-swipe {
+.my-swipe {
   height: 300px;
   color: #fff;
   font-size: 30px;

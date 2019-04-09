@@ -10,19 +10,19 @@
       </div>
       <div slot='body'>
         <div id='register-user'>
-              <p>
-                <span><i class="icon iconfont1">&#xe675;</i></span>
-                <input type='text' placeholder='请输入账号' class='enter' v-focus v-model="username" />
-              </p>
-              <p>
-                <span><i class="icon iconfont1">&#xe618;</i></span>
-                <input type='password' placeholder='请输入密码' class='enter' v-model="password"/>
-              </p>
-              <div class=registerUser v-if='isActive'>
-                <input type='checkbox'/>下次自动登陆
-                <span class='rg'>忘记密码?</span>
-              </div>
-            </div>
+          <p>
+            <span><i class="icon iconfont1">&#xe675;</i></span>
+            <input type='text' placeholder='请输入账号' class='enter' v-focus v-model="username" />
+          </p>
+          <p>
+            <span><i class="icon iconfont1">&#xe618;</i></span>
+            <input type='password' placeholder='请输入密码' class='enter' v-model="password"/>
+          </p>
+          <div class=registerUser v-if='isActive'>
+            <input type='checkbox'/>下次自动登陆
+            <span class='rg'>忘记密码?</span>
+          </div>
+        </div>
       </div>
       <div slot='footer'>
         <button class='dobutton' v-if='isActive' @click='login'> 登陆</button>
