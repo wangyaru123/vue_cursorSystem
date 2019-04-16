@@ -34,7 +34,7 @@ import Router from 'vue-router'
 					{
 						ref:'/',
 						name:'首页',
-						routeName: '首页',
+						routeName: '首页'
 					},
 					{
 						ref:'/AllCursor',
